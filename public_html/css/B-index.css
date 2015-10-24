@@ -1,2 +1,117 @@
+ul img {
+    width: 240px;
+    height: auto;
+}
+body {
+   background-size: 100%;
+}
+body h1  {
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+header {
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+.socialmediaicon {
+    width: 110px;
+    height: auto;
+    margin: 0 5px;
+}
+footer {
+    color: white;
+    text-align: center;
+}
+h1, h2 {
+    color: #DBDBDB;
+}
+section p {
+    text-align: right;
+    color: white;
+    font-size: 2em;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin:20px 0 0;
+    font-size: 2em;
+}
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+nav a.selected,nav a:hover {
+    color: white;
+}
+ul a {
+    color: #DBDBDB;
+}
+ div h3 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: 800;
+}
+header {
+    text-align: center;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat; 
+    background-size: 25px 25px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}header h3 {
+    font-size: 2.75em;
+    color: white;
+}
+@media screen and (min-width: 480px){
+    #primary {
+        width: 40%;
+        float: left;
+    }
+    #secondary {
+        width: 30%;
+        float: right;
+    }    
 
-
+    #gallery li {
+        width: 28.333%;
+    }
+    #gallery li:nth-child(4n) {
+        clear: left;
+     }
+}
+/**** ABOUT PAGE****/
+@media screen and (min-width: 660px) {
+  
+      h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 0.825;
+        margin: 20px;    
+    }
+    header {
+        border-top: 5px solid white;
+        margin-bottom: 60px;
+    } 
+}
+footer {
+    font-size: 2.1em;
+}
