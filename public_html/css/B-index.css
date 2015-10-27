@@ -3,7 +3,16 @@ ul img {
     height: auto;
 }
 body {
-   background-size: 100%;
+   background-size: 100% 100%;
+}
+p {
+    font-size: 3em;
+    color: white;
+    margin-top: 19px;
+}
+header h4 {
+    font-size: 1.5em;
+    color: white;
 }
 body h1  {
     color: white;
@@ -79,6 +88,7 @@ header {
 }header h3 {
     font-size: 2.75em;
     color: white;
+    margin-top: -1px;
 }
 @media screen and (min-width: 480px){
     #primary {
@@ -113,5 +123,20 @@ header {
     } 
 }
 footer {
-    font-size: 2.1em;
+    font-size: 1.2em;
+}
+h4 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: -49px;
+}
+h5 {
+    color: white;
+    font-size: 2.2em;
+    text-align: left;
+}
+h6 {
+    color: white;
+    font-size: 2em;
+    text-align: left;
 }
